@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-family: "jaf-facitweb","Helvetica Neue",Arial,sans-serif;
+	color: white;
+}
+.navbar-default {
+	background-color: #095da8;
+	height: 70px;
+	box-shadow: 0px 1px 24px -6px rgba(0,0,0,1);
+	width: 1290px;
+	height: 40px;
+    padding: 5px;
+}
+
+a{
+	margin-left: 10px;
+	text-decoration: none;
+    font-weight: bold;
+    line-height: 2;
+    float: right;
+}
+
+.container{
+	height: 234px;
+    width: 1301;
+   	padding: 10px;
+   	background-color: #238ec2;	
+   	display: block;
+}
+.tablero{
+	height: 40px;
+	width: 130px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+	font-size: 20px;
+	background-color: #528ec3;
+	border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.fa-trello{
+	padding-left: 3px;
+}
+
+.lupa{
+
+	background-color: #528ec3;
+	
+	border: 1px solid transparent;
+    border-radius: 5px;
+    display: block;
+	float: left;
+	height: 40px;
+	width: 130px;
+	font-size: 20px;
+}
+
+.fa-search{
+	float: right;
+	padding: 10px 5px 0px 0px;
+}
+
+.titulo{
+	width: 618px;
+	height: 45px;
+	display: block;
+	float: left;
+}
+#logo{
+	width: 108px;
+    height: 45px;
+    padding-left: 250px;
+    padding-right: 260px;
+}
+ 
+ .iconos{
+ 	width: 380px;
+	height: 45px;
+	display: block;
+	float: left;
+ }
+#icono{
+	width: 189px;
+    height: 40px;
+    float: right;
+}
+
+.lista{
+	border::  1p solid transparent;
+	background-color: #528ec3;
+	width: 250px;
+    height: 35px;
+}
