@@ -96,9 +96,19 @@ a{
     height: 35px;
 }
 
-#contLista{
-border: 1px solid transparent;
-background-color: #e7e6eb;
-width: 250px;
-height:400px;
+#contlista{
+	position: relative;
+	padding: 15px;
+    top: 0;
+	width: 210px;
+    height: 60px;
+    background-color:#E2E4E6;
+    border-radius: 5px;
+    text-align: center;
+	display: block;
+}
+
+input{
+	margin: 5px;
+	color: black;
 }
