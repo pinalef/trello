@@ -89,9 +89,16 @@ a{
     float: right;
 }
 
-.lista{
-	border::  1p solid transparent;
+#lista{
+	border:  1px solid transparent;
 	background-color: #528ec3;
 	width: 250px;
     height: 35px;
+}
+
+#contLista{
+border: 1px solid transparent;
+background-color: #e7e6eb;
+width: 250px;
+height:400px;
 }
