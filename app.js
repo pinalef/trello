@@ -46,7 +46,17 @@ function tareaPrincipal(){
             //reemplazo nodos             
             contLista.replaceChild(parrafo, input);
             contLista.replaceChild(enlace, button);
+
+            //anado evento click a enlace
+            enlace1.addEventListener('click', function(){
+            //creo contenedor nuevo formulario, y elementos
+             var contLista1 = document.createElement('div');
+            var input1 = document.createElement('input');
+            var button1 = document.createElement('input');
+            })
         })
+
+
     }
 }
 
