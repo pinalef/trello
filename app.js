@@ -38,7 +38,7 @@ function tareaPrincipal(){
             var enlace = document.createElement('a');
             var parrafo1 = document.createTextNode(texto);
             var enlace1 = document.createTextNode('Añadir una tarea');
-
+            
             //anado contenido a parrafo y link
             parrafo.appendChild(parrafo1);
             enlace.appendChild(enlace1);
